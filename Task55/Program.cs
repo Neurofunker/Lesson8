@@ -24,9 +24,9 @@ int[,] Replace(int[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            int temp = matrix[i ,j];
+        
             tempArray[j, i] = matrix[i, j];
-            matrix[i, j] = temp;
+         
         }
     }
     return tempArray;
